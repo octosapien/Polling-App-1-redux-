@@ -12,7 +12,7 @@ const setToken = (token) =>{
 
 
 const instance = axios.create({
-    baseURL: 'https://polling-app-1-redux-2.onrender.com/'
+    baseURL: 'https://polling-app-1-redux-2.onrender.com/api/'
 })
 
 export default {instance, setToken}
