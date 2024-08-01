@@ -1,0 +1,77 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media(max-width: 560px){
+    .container{
+        margin: 10px;
+    }
+}
+
+.nav-bar{
+    background-color: #3f51b5;
+    padding: 6px;
+}
+.nav-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container a{
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    width: 100%;
+}
+
+.main-container{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 14px;
+}
+
+@media(max-width: 560px){
+    .main-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.MuiToolbar-gutters{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.MuiIconButton-root{
+    padding: 0px !important;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.back-to-home{
+    color: black;
+    padding: 6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-home .icon{
+    color: white;
+    font-size: 20px !important;
+}
