@@ -19,6 +19,7 @@ app.get('/', (req,res) => res.send("Hurray server is running..."))
 // DB Config
 
 const connecttionURL = process.env.URL
+console.log(connecttionURL, "here" );
 mongoose.connect( connecttionURL, {
     useCreateIndex: true,
     useNewUrlParser: true,
